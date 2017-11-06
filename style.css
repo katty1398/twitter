@@ -1,0 +1,122 @@
+ body{
+ 	margin: 0px;
+ 	font-family: 'Rozha One', serif;
+ }
+
+
+
+ #logo{
+ 	text-transform: uppercase;
+ 	background-color: #6AD2F3;
+ 	text-align: center;
+ 	color: #FFF;
+ 	padding-top: 1px;
+ 	padding-bottom: 40px;
+ 	height: 60px;
+
+ }
+
+ section{
+	background-image: url(img/large1.jpg);
+	background-size: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 550px;
+	margin-top: -20px;
+	display: inline-block;
+}
+
+.cuadro{
+	background: #FFF;
+	width: 550px;
+	height: 180px;
+	margin-top: 50px;
+	padding-left: 20px;
+
+}
+
+#reto{
+	
+	float: left;
+	margin-left: 70px;
+	padding-bottom: 30px;
+	
+}
+
+#reto p{
+	color: #8B8D8C;
+}
+
+#reto img{
+	width: 100px;
+	border-radius: 50px;
+	margin: 50px;
+}
+
+#reto #text{
+	margin-left: 200px;
+	width: 200px;
+	margin-top: -150px;
+}
+
+#formulario{
+	
+	float: right;
+	margin-right: 70px;
+	padding: 20px;
+	display: block;
+}	
+
+#formulario input{
+	border: none;
+	border-bottom: 3px solid #6AD2F3; 
+	padding-bottom: 70px;
+	width: 500px;
+	display: block;
+}
+
+
+
+#formulario button{
+	color: #FFF;
+	background-color:#6AD2F3; 
+	border: none;
+	width: 100px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+#formulario #obs{
+	border: 3px solid #000;
+	width: 100px;
+	height: 50px;
+	margin-left: 400px;
+}
+
+#contenedor {
+	border-radius: 0.4px;
+	width: 300px;
+	height: 50px;
+	color: #4E4D53;
+	text-align: left;
+	margin-bottom: 100px;
+	border: 3px solid #000;
+	
+}
+/*
+#contenedor span {
+	margin-left: 1em;
+}*/
+
+#contenedor div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+
+}
+
+/*
+.tuit {
+    border: 2px solid deeppink;
+}
