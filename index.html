@@ -5,6 +5,7 @@
     <title>Twitter</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
+
 </head>
 <body>
     <header id="logo">
@@ -16,23 +17,27 @@
          <div id="reto" class="cuadro">
              <img src="img/1a.jpg" alt="">
              <div id="text">
-                <h1>KATTY1398</h1>
-                <p>Katherine Roldan</p>
+                <h1>Katherine Roldan <br><p>@Katty1398</p> </h1>
+                
              </div>
         
          </div>
+         
+         <div class="container">
+             <textarea id="texto" placeholder="Que estas pensando?"></textarea>
 
-         <div id="formulario" class="cuadro">
-             <input type="text" id="comentario" placeholder="¿Que estas pensando?">
-             <button name="enviar" onclick="add()">tweet</button>
-             <div id="obs"></div>
+             <span id="contador"></span><br>
+
+             <button type="submit" id="boton" disabled><i class="fa fa-plus" aria-hidden="true"></i> Agregar</button>
+
+             <!-- contenedor comentarios -->
+             <div id="contenedor"></div>
          </div>
-
-         <div id="contenedor"></div>
+   
              
     </section>
    
     
-    <script src="app.js" type="application/javascript"></script>
+    <script src="js/app.js" type="application/javascript"></script>
 </body>
 </html>

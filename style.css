@@ -59,64 +59,65 @@
 	margin-top: -150px;
 }
 
-#formulario{
-	
+.container{
+	width: 35%;
+	height: 220px;
 	float: right;
-	margin-right: 70px;
-	padding: 20px;
-	display: block;
-}	
+	text-align: center;
+	margin-top: 60px;
+	margin-right:150px;;
+}
 
-#formulario input{
+.container textarea{
 	border: none;
 	border-bottom: 3px solid #6AD2F3; 
 	padding-bottom: 70px;
-	width: 500px;
+	width: 90%;
 	display: block;
+	margin: 0 auto;
 }
 
+.container #contador{
+	color: #000;
+	background-color: #FFF;
+	border-radius: 50px;
+	margin-left: 450px;
+	font-weight: border;
+	text-align: center;
+	padding: 10px;
+}
 
-
-#formulario button{
+.container button{
 	color: #FFF;
 	background-color:#6AD2F3; 
 	border: none;
 	width: 100px;
 	padding: 10px;
-	margin-top: 20px;
+	margin-top: -30px;
 }
 
-#formulario #obs{
-	border: 3px solid #000;
-	width: 100px;
-	height: 50px;
-	margin-left: 400px;
-}
+
+
 
 #contenedor {
 	border-radius: 0.4px;
-	width: 300px;
-	height: 50px;
+	width: auto ;
+	height: auto;
 	color: #4E4D53;
 	text-align: left;
-	margin-bottom: 100px;
-	border: 3px solid #000;
+	margin-top: 100px;
+	margin-left: -650px;
 	
 }
-/*
-#contenedor span {
-	margin-left: 1em;
-}*/
+
 
 #contenedor div {
 	padding: 1em 0.5em;
 	margin-bottom: 2em;
 	outline: 0.1em solid #E5E3F2;
 	background-color: #FFF;
+	text-align: left;
+
 
 }
 
-/*
-.tuit {
-    border: 2px solid deeppink;
-}
